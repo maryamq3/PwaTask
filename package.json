@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "github-build": "ng build --configuration production --base-href /Pwa-Task/",
-    "github-deploy": "npx angular-cli-ghpages --dir=dist/PwaTask/browser --no-silent"
+    "github-build": "ng build --configuration production --base-href /pwa-Task/",
+    "github-deploy": "npx angular-cli-ghpages --dir=dist/pwaTask/browser --no-silent"
   },
   "prettier": {
     "overrides": [
